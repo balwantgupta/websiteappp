@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <!-- ------------- Navigation Baarr -------------------     -->
+ <section class="contact-header">
+   <nav>
+   <img src="logo2.jpg">
+<div class="nav-Links" class="nav-Links">
+    <i class="fa-solid fa-circle-xmark" onclick="closenav()"></i>
+    <ul>
+
+        <li> <a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="conatact.html">CONTACT</a></li>
+
+    </ul>
+</div>
+
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+   </nav> 
+   <div class="text-area">
+    <h1>Contact Me</h1>
+    <p>+ 0929990828
+        
+    </p>
+    
+    <a href="#contacti"class="hero-btn">Know More</a>
+   </div>
+ </section>
+
+<!-- ---------------section Cantact --------------- -->
+<section class="contact" id="contactid">
+    <div class="row">
+        <div class="contact-col">
+            <h2>Contact Me</h2>
+            <p>Mobile Number:+9130003903</p>
+            <p>Email Address:schol@gmail.com</p>
+            <p>connect me with Facebook:
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+               
+            </p>
+            <p>connect me with twitter :
+                <a href="">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+               
+            </p>
+            <p>connect me with youtube :
+                <a href="">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+               
+            </p>
+            <p>connect me with instagram :
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+               
+            </p>
+        </div>
+        
+
+
+        <div class="contact-col">
+            <div class="inputsecion">
+            <h2>Leave Your Details</h2>
+            <div class="submitform">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="second Name">
+                <input type="email" placeholder="Email">
+                <input type="email" placeholder="Enter Your qualification">
+                <input type="submit" class="hero-btn" style="color: #000;">
+                
+            </div>
+        </div>
+            
+        </div>
+
+    </div>
+</section>
+
+<section class="location">
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.708656239067!2d83.3634814!3d26.7536718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991446eb2b5de1f%3A0x6c8052bab92701d2!2sBuxipur%20Rd%2C%20Miyan%20Baza%2C%20Gorakhpur%2C%20Uttar%20Pradesh%20273001!5e0!3m2!1sen!2sin!4v1696760783463!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+
+<!-- ---------- section of  footer section-------------- -->
+
+<section class="footer" id="contacti">
+    <h1>Conatct Me</h1>
+    <div class="conact-icon">
+        <a href="">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <p>Mdae With     <i class="fa-regular fa-heart"></i>     Love You</p>
+
+    </div>
+    
+
+</section>
+
+
+
+
+
+
+
+
+
+ <!-- --------------- Javascript Logic ----------------- -->
+ <script>
+ const navLinks = document.querySelector(".nav-Links");
+ const onclickc=  document.querySelector("nav .fa-bars");
+ 
+ 
+ function openmenu(){
+    navLinks.style.right="0" 
+    
+ 
+ } 
+ function closenav(){
+    navLinks.style.right = "-200px"
+    
+ } 
+
+ 
+ 
+ 
+
+ </script>   
+</body>
+</html>

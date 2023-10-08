@@ -1,0 +1,154 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <!-- ------------- Navigation Baarr -------------------     -->
+ <section class="sub-header">
+    
+   <nav>
+    
+   <img src="logo2.jpg">
+<div class="nav-Links" class="nav-Links">
+    <i class="fa-solid fa-circle-xmark" onclick="closenav()"></i>
+    <ul>
+
+        <li> <a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="conatact.html">CONTACT</a></li>
+
+    </ul>
+</div>
+
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+   </nav> 
+   <div class="about-text">
+    <h1>About Us</h1>
+</div> 
+ </section>
+
+ <!-- About section to text  area --------- -->
+ <section class="about">
+    <div class="row">
+        <div class="about-col">
+        <img src="campus2.jpg">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, omnis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, omnis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, omnis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, omnis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, omnis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, omnis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, omnis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, omnis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, omnis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, omnis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, omnis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, omnis.</p>
+        
+        <div class="form-section">
+        <form action="" >
+            
+            <input type="text" placeholder="first name" required>
+            <input type="text" placeholder="second name" required>
+            <input type="email" placeholder="Email" required>
+            
+            <h1>SELECT YOUR COURSE</h1>
+            <select name="" id="">
+                
+                <option value="">BCA</option>
+                <option value="">MCA</option>
+                <option value="">BTECH</option>
+                <option value="">BTECH</option>
+                <option value="">MTECH</option>
+                <option value="">BSC</option>
+                <option value="">BCOM</option>
+                <option value="">BA</option>
+            </select>
+            <input type="submit" class="hero-btn" value="Apply"style="color:black">
+        </form>
+    </div>
+    </div>
+        <div class="about-col">
+            <h2>Know This</h2>
+            <span>Monthly Sport <i class="fa-solid fa-check"></i></span>
+           
+            <span>Monthly Test <i class="fa-solid fa-check"></i></span>
+            
+            <span>Scolarship Available <i class="fa-solid fa-check"></i></span>
+            <span>free Book <i class="fa-solid fa-check"></i></span>
+            <span>library Available <i class="fa-solid fa-check"></i></span>
+            <span>high Level Teacher <i class="fa-solid fa-check"></i></span>
+
+       
+        </div>
+</div>
+ </section>
+
+
+
+
+
+ 
+
+<!-- ---------- section of  footer section-------------- -->
+
+<section class="footer">
+    <h1>Conatct Me</h1>
+    <div class="conact-icon">
+        <a href="">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <p>Mdae With     <i class="fa-regular fa-heart"></i>     Love You</p>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+ <!-- --------------- Javascript Logic ----------------- -->
+ <script>
+ const navLinks = document.querySelector(".nav-Links");
+ const onclickc=  document.querySelector("nav .fa-bars");
+ 
+ 
+ function openmenu(){
+    navLinks.style.right="0" 
+    
+ 
+ } 
+ function closenav(){
+    navLinks.style.right = "-200px"
+    
+ } 
+
+ 
+ 
+ 
+
+ </script>   
+</body>
+</html>
